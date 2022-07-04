@@ -1,0 +1,125 @@
+:root{
+    --primaryColor: #2671e8;
+    --primaryFont:'Segoe UI';
+    --secondaryColor: black;
+    --buttonColor: #00a401;
+}
+body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 40px;
+   
+}
+.top{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.red{
+    margin-top: 50px;
+    padding: 1px;
+    align-content: center;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    overflow: none;
+}
+.yellow{
+    height:50px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    
+}
+h4{
+    margin-bottom: 10px;
+    height: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Segoe UI';
+    color: #2671e8;  
+}
+.blue{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+}
+.form1{
+    display: grid;
+    background-color: transparent;
+}
+.emailtxt{
+    width: 520px;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f6f8;
+    color: #788190;
+    border:none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.emailtxt:focus-visible{
+    border: none ;
+}
+.passtxt{
+    width: 520px;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f6f8;
+    color: #788190;
+    border:none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.btn{
+    font-size: 24px;
+    justify-self: center;
+    width: 520px;
+    height: 50px;
+    background-color: #2671e8;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+}
+h6{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Arial';
+    justify-self: center;
+    color: var(--primaryColor);
+}
+.or{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Arial';
+    justify-self: center;
+    color: var(--secondaryColor);
+}
+button{
+    margin: 20px;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 32sp;
+    height: 40px;
+    font-family: var(--primaryFont);
+    justify-self: center;
+    color: white;
+    background-color: var(--buttonColor);
+}
