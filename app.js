@@ -1,3 +1,4 @@
+// The get Info Function
 function getInfo(params) {
   var btn = document.getElementById("btn");
   btn.style.color = "#86a7dd";
